@@ -165,17 +165,17 @@
 
 
 // napisz funkcje, która zwraca z tablicy najwyższą wartość
-function max(collection){
-    let maxValue = collection[0];
-
-    for (const digit of collection){
-        if (digit > maxValue){
-            maxValue = digit;
-        }
-    }
-
-    return maxValue;
-}
+// function max(collection){
+//     let maxValue = collection[0];
+//
+//     for (const digit of collection){
+//         if (digit > maxValue){
+//             maxValue = digit;
+//         }
+//     }
+//
+//     return maxValue;
+// }
 
 // console.log(max([1, 2, 3, 4, 5, 2, 42]));
 
@@ -207,16 +207,18 @@ function max(collection){
 
 
 // Policz średnią elementów z tablicy
+//
+// function calculateAvg(numbers) {
+//     let sum = 0;
+//
+//     for (const number of numbers) {
+//         sum += number;
+//     }
+//     return sum / numbers.lenght;
+//
+// }
+//
+//
+// console.log(calculateAvg([1, 2, 3, 4, 5]));
 
-function calculateAvg(numbers) {
-    let sum = 0;
 
-    for (const number of numbers) {
-        sum += number;
-    }
-    return sum / numbers.lenght;
-
-}
-
-
-console.log(calculateAvg([1, 2, 3, 4, 5]));
